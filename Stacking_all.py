@@ -58,8 +58,8 @@ connection.commit()
 engine = sqlalchemy.create_engine('sqlite:///Staking.db')
 df.to_sql('Rewards', engine, if_exists='append', index=False)
 
-api_key = 'SACnCkJ7opdnfUFwLXMnj6vxLj0aTeAuZ97aDyRJhgxO1Al8hbBCxaHeK4peXdUB'
-api_secret = 'hkYvLM8Kr9kquy33uaKK73vpztriIS5gOD3uCkWYUWYSVVT98EeWWogkMQPk6WxK'
+api_key = 'xxx'
+api_secret = 'xxx'
 
 client = Client(api_key, api_secret)
 #history = pd.DataFrame(client.get_asset_dividend_history())
